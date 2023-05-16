@@ -8,14 +8,14 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* .App-logo { */
+  /*   animation: App-logo-spin infinite 20s linear; */
+  /* } */
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer-icon {
+    scale: 2;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.github-icon:hover {
+    color: purple;
+}
+
+.my-linkedin-icon:hover {
+    color: #0077b5;
+}
+
+.email-icon:hover {
+    color: #d44638;
 }
