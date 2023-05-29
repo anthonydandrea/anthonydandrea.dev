@@ -1,0 +1,114 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .back-arrow {
+        animation: back-arrow-bounce infinite 1s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    height: 10vh;
+}
+
+.App-content {
+    background-color: #282c34;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.back-arrow  {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    fill: inherit;
+    transition: .2s;
+    scale: 2;
+}
+
+.back-arrow:hover {
+    fill: white;
+}
+
+.footer {
+    height: 10vh;
+}
+
+@keyframes back-arrow-bounce {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.footer-icon {
+    scale: 2;
+    margin: 0 14px;
+    transition: .3s;
+}
+
+.my-medium-icon {
+    fill: #333;
+}
+
+.my-medium-icon:hover {
+    fill: black;
+}
+
+.github-icon:hover {
+    color: purple;
+}
+
+.my-linkedin-icon:hover {
+    color: #0077b5;
+}
+
+.email-icon:hover {
+    color: #d44638;
+}
+
+.link-row {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.link {
+    color: #89cff0;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-separator {
+    color: #999;
+    margin: 0 30px;
+}
+
+.link:hover {
+    color: #666;
+}
+
+.link:active {
+    color: #999;
+}
