@@ -1,7 +1,7 @@
 import React from 'react';
 import App from './App';
 import Feed from './Feed';
-import PostsJson from '../json/posts.json';
+import PostsJson from '../json/posts.js';
 
 function Posts() {
 	return (

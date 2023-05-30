@@ -38,7 +38,7 @@
     left: 40px;
     top: 40px;
     fill: inherit;
-    transition: .2s;
+    transition: .4s;
     scale: 2;
 }
 
@@ -46,19 +46,41 @@
     fill: white;
 }
 
+@media (max-width: 1024px) {
+    @keyframes back-arrow-highlighting {
+        0% {
+            fill: inherit;
+        }
+        50% {
+            fill: lightgrey;
+        }
+        100% {
+            fill: inherit;
+        }
+    }
+
+    .back-arrow {
+        animation-name: back-arrow-highlighting;
+          animation-duration: 3s;
+          animation-fill-mode: forwards;
+    }
+}
+
+
+
 .footer {
     height: 10vh;
 }
 
 @keyframes back-arrow-bounce {
     0% {
-        transform: translateX(0);
+        transform: translatex(0);
     }
     50% {
-        transform: translateX(-5px);
+        transform: translatex(-5px);
     }
     100% {
-        transform: translateX(0);
+        transform: translatex(0);
     }
 }
 

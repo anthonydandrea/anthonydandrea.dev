@@ -15,10 +15,12 @@ code {
 .footer {
   background-color: #f5f5f5;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .footer__links {
-    padding-top: 15px;
+    width: 100%;
 }
 
 .footer__links a {

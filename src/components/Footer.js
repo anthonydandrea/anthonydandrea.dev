@@ -21,7 +21,7 @@ function Footer() {
             <FaEnvelope className='footer-icon email-icon'/>
         </a>
       </div>
-      <p className="footer__copy">© {new Date().getFullYear()} Anthony D&apos;Andrea. All rights reserved.</p>
+      {/* <p className="footer__copy">© {new Date().getFullYear()} Anthony D&apos;Andrea. All rights reserved.</p> */}
     </footer>
   );
 }

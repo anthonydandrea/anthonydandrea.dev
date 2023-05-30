@@ -1,11 +1,13 @@
 import React from 'react';
-import App from './App';
+import ProjectsJson from '../json/projects.js';
+import App from './App.js';
+import Feed from './Feed.js';
 
 function Projects() {
 	return (
-        <App>
-            🚧 Projects 🚧
-        </App>
+		<App>
+			<Feed json={ProjectsJson} />
+		</App>
 	);
 }
 

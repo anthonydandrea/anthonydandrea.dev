@@ -9,7 +9,8 @@ function Feed(props) {
                     <div key={item.name} onClick={() => window.open(item.redirectUrl, "_blank")} className="feed-item">
                 <div className='feed-item-column'>
                     <div className='feed-item-image-wrapper'><img src={item.imageUrl} className="feed-item-image-small" /></div></div>
-                <div className='feed-item-column'><h2>{item.name}</h2>
+                <div className='feed-item-column feed-item-info-box'>
+                    <h2>{item.name}</h2>
                 <p>{item.shortDescription}</p></div>
                 </div>
                 );
