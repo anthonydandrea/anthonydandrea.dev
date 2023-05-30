@@ -7,8 +7,6 @@
   margin-bottom: 30px;
 }
 
-
-
 .feed-item-image-small {
     width: 50%;
     height: 50%;
@@ -35,7 +33,7 @@
 
 .feed-item img {
   width: 100%;
-  max-width:  250px;
+  max-width:  400px;
   height: auto;
   padding-left: 5px;
 }
