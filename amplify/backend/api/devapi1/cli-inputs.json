@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/ping": {
+      "name": "/ping",
+      "lambdaFunction": "devapiPing",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    }
+  }
+}

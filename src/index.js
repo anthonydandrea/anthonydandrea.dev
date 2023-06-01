@@ -9,25 +9,25 @@ import {
 import Landing from './components/Landing';
 import Posts from './components/Posts';
 import Projects from './components/Projects';
-
-// import { pdfjs } from 'react-pdf';
-// pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-//   'pdfjs-dist/build/pdf.worker.min.js',
-//   import.meta.url,
-// ).toString();
+import Cv from './components/Cv';
+import { POSTS, CV, PROJECTS } from './routes.js';
 
 const router = createBrowserRouter([
   {
-    path: "/posts",
-      element: <Posts />,
+    path: `/${POSTS}`,
+    element: <Posts />,
   },
   {
-    path: "/projects",
-      element: <Projects />,
+    path: `/${PROJECTS}`,
+    element: <Projects />,
+  },
+  {
+    path: `/${CV}`,
+    element: <Cv />,
   },
   {
     path: "/*",
-      element: <Landing />,
+    element: <Landing />,
   },
 ]);
 
