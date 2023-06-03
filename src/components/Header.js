@@ -29,7 +29,7 @@ function Header() {
 			}
             {
                 CV_SUBROUTES.find(val => val == location.pathname) ? (
-                    <a href='resume.pdf' className='link one-pager-link' target="_blank" rel="noreferrer">Link to 1-pager PDF</a>
+                    <a href='/resume.pdf' className='link one-pager-link' target="_blank" rel="noreferrer">Link to 1-pager PDF</a>
                 ) : null
             }
             </div>
