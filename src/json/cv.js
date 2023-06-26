@@ -4,7 +4,7 @@ import SaabPng from '../images/saab.png';
 export default [
 	{
 		title: 'Amazon Web Services',
-		timeframe: '2021 - Present',
+		timeframe: 'Feb 2021 - Present',
 		roles: [
 			'Software Development Engineer II (Sept 2022 - Present)',
 			'Software Development Engineer I (Feb 2021 - Sept 2022)',

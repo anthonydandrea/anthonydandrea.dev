@@ -33,6 +33,10 @@
     flex-direction: column;
     justify-content: center;
     width: 70%;
+
+}
+.cv-headline i {
+    font-size: 1.5vw;
 }
 
 .cv-bullet {
@@ -70,6 +74,9 @@
     .cv-role {
         font-size: 1.5vw;
     }
+    .cv-headline i {
+        font-size: 2vw;
+    }
 }
 
 @media (max-width: 720px) {
@@ -87,5 +94,8 @@
     }
     .cv-section-image {
         width: 20vw;
+    }
+    .cv-headline i {
+        font-size: 3vw;
     }
 }
