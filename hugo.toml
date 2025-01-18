@@ -1,0 +1,87 @@
+baseURL = 'https://anthonydandrea.dev/'
+languageCode = 'en-us'
+title = "Anthony D'Andrea"
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "Personal website for Anthony D'Andrea, a software engineer."
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hello!'
+homeIntroContent = """
+I'm a software engineer and **very** occasionally write down my thoughts online.
+
+I have experience in distributed systems, globally-distributed cloud services, build and dev tooling, and cross-platform development.
+
+My favorite languages are Rust and Python, but I can hop into a codebase of Typescript, Javascript, or Java without too much trouble.
+
+In my free time, I like to play the drums, lift weights, and eat Omakase.
+
+Currently based in Seattle, WA.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/anthony-dandrea/"
+
+[[params.social]]
+name = "medium"
+url = "https://medium.com/@anthony-dandrea"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/anthonydandrea"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+# [[params.menu]]
+# name = "about"
+# url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+

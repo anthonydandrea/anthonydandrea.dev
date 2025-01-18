@@ -1,0 +1,3 @@
+[submodule "anthonydandrea.dev/themes/typo"]
+	path = anthonydandrea.dev/themes/typo
+	url = https://github.com/tomfran/typo.git
