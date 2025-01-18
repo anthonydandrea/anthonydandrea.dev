@@ -1,19 +1,19 @@
 # Define the Hugo build command
 build:
-    hugo build -d build
+    hugo --gc --minify
 
 build-dev:
-    hugo build -D -d build
+    hugo -D
 
 serve:
-    hugo server -c build -D -p 61000
+    hugo server -D -p 61000
 
 # Define the task to copy redirects
 copy-redirects:
     @find content/redirects -type f -name "index.html" | while read -r file; do \
         name=$(basename $(dirname "$file")); \
-        mkdir -p "build/posts/$name"; \
-        cp "$file" "build/posts/$name/index.html"; \
+        mkdir -p "public/posts/$name"; \
+        cp "$file" "public/posts/$name/index.html"; \
     done
 
 # Combine build and copy tasks
