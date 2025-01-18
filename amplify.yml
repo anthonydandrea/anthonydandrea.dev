@@ -1,19 +1,4 @@
 version: 1
-frontend:
-  phases:
-    # IMPORTANT - Please verify your build commands
-    build:
-      commands:
-        - just deploy
-  artifacts:
-    # IMPORTANT - Please verify your build output directory
-    baseDirectory: /build
-    files:
-      - '**/*'
-  cache:
-    paths: []
-
-version: 1
 env:
   variables:
     # Application versions
