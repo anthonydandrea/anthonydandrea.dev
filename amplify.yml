@@ -1,0 +1,16 @@
+version: 1
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands:
+        - curl -fsSL https://github.com/casey/just/releases/download/1.38.0/just-1.38.0-x86_64-unknown-linux-musl.tar.gz | tar xzv
+        - mv just /usr/local/bin/
+        - just deploy
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: /build
+    files:
+      - '**/*'
+  cache:
+    paths: []
