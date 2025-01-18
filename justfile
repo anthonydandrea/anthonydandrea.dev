@@ -1,9 +1,9 @@
 # Define the Hugo build command
 build:
-    hugo -d build
+    hugo build -d build
 
 build-dev:
-    hugo -D -d build
+    hugo build -D -d build
 
 serve:
     hugo server -c build -D -p 61000
