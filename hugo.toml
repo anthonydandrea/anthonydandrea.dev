@@ -12,6 +12,7 @@ googleAnalytics = "G-xxxxxxxxx"
 [params]
 # Meta description
 description = "Personal website for Anthony D'Andrea, a software engineer."
+faviconPath = "https://anthonydandrea.dev"
 
 # Appearance settings
 theme = 'auto'
