@@ -23,13 +23,13 @@ homeIntroTitle = 'Hello!'
 homeIntroContent = """
 I'm a software engineer and **very** occasionally write down my thoughts online.
 
-I have experience in distributed systems, globally-distributed cloud services, build and dev tooling, and cross-platform development.
+I have experience in distributed systems, cloud infrastructure, build and developmennt tooling, and cross-platform development.
 
-My favorite languages are Rust and Python, but I can hop into a codebase of Typescript, Javascript, or Java without too much trouble.
+My preferred languages are Rust and Python, but I can hop into a codebase of Typescript, Javascript, or Java without too much trouble.
 
 In my free time, I like to play the drums, lift weights, and eat Omakase.
 
-Currently based in Seattle, WA.
+Currently based out of Seattle, WA.
 """
 
 # Collection to display on home
