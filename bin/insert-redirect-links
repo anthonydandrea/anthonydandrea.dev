@@ -48,5 +48,5 @@ for root, _, files in os.walk(source_dir):
             with open(destination_path, "w") as output_file:
                 output_file.write(content)
             
-            print(f"Processed {source_path} -> {destination_path}")
+            print("Processed", source_path, "->", destination_path)
 
