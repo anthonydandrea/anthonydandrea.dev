@@ -24,7 +24,7 @@ homeIntroTitle = 'Hello!'
 homeIntroContent = """
 I'm a software engineer and **very** occasionally write down my thoughts online.
 
-My background is primarily in distributed systems, cloud infrastructure, build and developmennt tooling, and cross-platform development.
+My background is primarily in distributed systems, cloud infrastructure, build and development tooling, and cross-platform development.
 
 My preferred languages are Rust and Python, but I can hop into a codebase of Typescript, Javascript, or Java without too much trouble.
 
@@ -58,6 +58,10 @@ url = "https://medium.com/@anthony-dandrea"
 name = "github"
 url = "https://github.com/anthonydandrea"
 
+[[params.social]]
+name = "gmail"
+url = "mailto:anthonydandrea2@gmail.com"
+
 # Main menu pages
 [[params.menu]]
 name = "home"
@@ -66,6 +70,10 @@ url = "/"
 [[params.menu]]
 name = "posts"
 url = "/posts"
+
+# [[params.menu]]
+# name = "cv"
+# url = "/cv"
 
 # [[params.menu]]
 # name = "about"
