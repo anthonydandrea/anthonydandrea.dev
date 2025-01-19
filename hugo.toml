@@ -24,7 +24,7 @@ homeIntroTitle = 'Hello!'
 homeIntroContent = """
 I'm a software engineer and **very** occasionally write down my thoughts online.
 
-I have experience in distributed systems, cloud infrastructure, build and developmennt tooling, and cross-platform development.
+My background is primarily in distributed systems, cloud infrastructure, build and developmennt tooling, and cross-platform development.
 
 My preferred languages are Rust and Python, but I can hop into a codebase of Typescript, Javascript, or Java without too much trouble.
 
