@@ -1,1 +1,4 @@
 /* Place custom css here */
+li {
+    line-height: 2;
+}
