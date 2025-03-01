@@ -42,6 +42,8 @@ frontend:
         # Install Node.JS dependencies
         - "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci --prefer-offline || true"
 
+        - pip install -r requirements.txt
+
         # https://github.com/gohugoio/hugo/issues/9810
         - git config --add core.quotepath false
 
