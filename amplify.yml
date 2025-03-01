@@ -42,6 +42,7 @@ frontend:
         # Install Node.JS dependencies
         - "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci --prefer-offline || true"
 
+        - python -m ensurepip --default-pip
         - pip install -r requirements.txt
 
         # https://github.com/gohugoio/hugo/issues/9810
