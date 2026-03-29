@@ -15,6 +15,11 @@ serve:
 insert-redirect-links:
     ./bin/insert-redirect-links
 
+# Build resume PDF from LaTeX source
+build-resume:
+    pdflatex -interaction=nonstopmode resume.tex
+    cp resume.pdf static/cv/AnthonyDAndreaResume.pdf
+
 # Combine build and copy tasks
 deploy: build insert-redirect-links
 deploy-dev: build-dev insert-redirect-links

@@ -23,6 +23,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# LaTeX artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+resume.pdf
+
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
 amplify/.config/local-*
