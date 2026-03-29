@@ -1,5 +1,5 @@
 #!/bin/sh
-# Build resume PDF from LaTeX source before pushing
+# Build resume PDF from LaTeX source before committing
 echo "Building resume PDF..."
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode resume.tex > /dev/null 2>&1
 if [ $? -ne 0 ]; then
@@ -8,5 +8,4 @@ if [ $? -ne 0 ]; then
 fi
 cp resume.pdf static/cv/AnthonyDAndreaResume.pdf
 git add static/cv/AnthonyDAndreaResume.pdf
-git commit --amend --no-edit
-echo "Resume PDF built and committed."
+echo "Resume PDF built and staged."
