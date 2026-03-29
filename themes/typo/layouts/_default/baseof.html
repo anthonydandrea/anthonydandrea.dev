@@ -24,9 +24,11 @@
     </main>
   </div>
 
+  {{ if not .Params.hideFooter }}
   <footer>
     {{ partial "footer.html" . }}
   </footer>
+  {{ end }}
 
   {{ if .Param "math" }}
   {{ partialCached "math.html" . }}

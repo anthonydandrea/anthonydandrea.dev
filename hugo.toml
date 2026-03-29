@@ -28,7 +28,7 @@ I'm a software engineer and **very** occasionally will write down my thoughts on
 
 My background is primarily in distributed systems, cloud infrastructure, build and development tooling, and cross-platform development.
 
-My preferred languages are Rust and Python, but I can hop into a codebase of Typescript/Javascript or Java without much trouble.
+My preferred languages are Rust and Python, but I can hop into a codebase of Typescript/Javascript or Java/Kotlin without much trouble.
 
 In my free time, I like to play the drums, lift weights, and eat Omakase.
 
@@ -45,7 +45,7 @@ listSummaries = true
 listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
-breadcrumbs = true
+breadcrumbs = false
 
 # Social icons
 [[params.social]]
@@ -74,6 +74,10 @@ name = "posts"
 url = "/posts"
 
 [[params.menu]]
+name = "resume"
+url = "/resume"
+
+[[params.menu]]
 name = "cv"
 url = "/cv"
 
@@ -83,6 +87,8 @@ url = "/cv"
 
 # Syntax highlight on code blocks
 [markup]
+[markup.goldmark.renderer]
+unsafe = true
 [markup.highlight]
 style = 'algol'
 

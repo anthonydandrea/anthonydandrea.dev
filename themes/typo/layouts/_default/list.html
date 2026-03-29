@@ -2,7 +2,9 @@
 
 <div class="list-container">
 
+    {{ if .Site.Params.breadcrumbs }}
     {{ partial "breadcrumbs.html" . }}
+    {{ end }}
 
     <h1>{{ .Title }}</h1>
     {{ .Content }}

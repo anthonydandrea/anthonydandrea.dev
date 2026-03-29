@@ -1,3 +1,7 @@
+# Print available commands
+default:
+    @just --list
+
 # Define the Hugo build command
 build:
     hugo --gc --minify

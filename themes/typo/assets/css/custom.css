@@ -2,3 +2,10 @@
 li {
     line-height: 2;
 }
+
+.cv-date {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: var(--content-secondary);
+    margin-left: 0.4em;
+}
