@@ -85,6 +85,12 @@ url = "/cv"
 # name = "about"
 # url = "/about"
 
+[server]
+[[server.headers]]
+for = "**.pdf"
+[server.headers.values]
+Cache-Control = "no-store"
+
 # Syntax highlight on code blocks
 [markup]
 [markup.goldmark.renderer]

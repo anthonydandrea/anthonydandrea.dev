@@ -74,7 +74,7 @@
   \item\small{
     {#1 \vspace{-2pt}}
   }
-  \vspace{2pt}
+  \vspace{5pt}
 }
 
 \newcommand{\resumeSubItem}[1]{
@@ -88,15 +88,15 @@
 \newcommand{\resumeSubheadingPreviousLevel}[2]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+      \underline{\small#1} & \small #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \fontsize{13}{15}\selectfont\textbf{#1} & #2 \\
+      \underline{\small#3} & \small #4 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -104,7 +104,7 @@
 \newcommand{\resumeSubSubheading}[2]{
     \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+      \underline{\small#1} & \small #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -113,8 +113,8 @@
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-      \textit{\small#5} & \textit{\small #6} \\
+      \small#3 & \small #4 \\
+      \small#5 & \small #6 \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -172,31 +172,27 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Amazon - FireTV}{Seattle, WA}
-      {Software Development Engineer II}{Dec 2023 \textbf{--} Present}
+      {Meta}{Seattle, WA}
+      {Senior Software Engineer}{Mar 2025 \textbf{--} Present}
         \resumeItemListStart
-            \resumeItem{Package owner and lead developer of the \textbf{Rust} cross-platform build and development tools used across Amazon, supporting \textbf{200+ engineers} working on \textbf{60+ packages}.}
-            \resumeItem{Bootstrapped the \textbf{first FireTV DevX metrics solution} for insights into critical data such as disk space usage, clean build times, and user behavior.}
-            \resumeItem{Primary contributor and leader of org-wide initiative to migrate \textbf{Java} middleware over to \textbf{cross-platform native middleware} for an up-to \textbf{80\% reduction} in memory usage.}
+            \resumeItem{Technical lead for Sharesheet redesign in Facebook (public test, \textbf{2B opens/day}); scoped and drove implementation strategy for a \textbf{3-engineer workstream}, providing technical trade-offs and direction for product, data science, and UXR initiatives.}
+            \resumeItem{Drove Sharesheet experiments in Facebook yielding \textbf{$+$2M sends}, \textbf{50\% improvement in load times} under 500ms, and \textbf{99.9\% reduction in failures} via performance and quality improvements.}
+            \resumeItem{Architected Android foundation for new Messenger tab (public test, \textbf{6.3M DAU}), including data models, pagination, and initialization patterns enabling rapid feature development.}
+            \resumeItem{Identified and led initiative to remove all unused feature flags from Facebook and Messenger, enforcing removal as a build failure, saving \textbf{$\sim$\$200k/year in capacity}.}
+            \resumeItem{Built reporting and notifications infrastructure critical to Messenger feature launch across Android, iOS, and server; blocking factor for safety compliance and user adoption.}
         \resumeItemListEnd
 
     \resumeSubheading
-      {Amazon Web Services}{New York, NY}
-      {Software Development Engineer II}{Oct 2022 \textbf{--} Dec 2023}
+      {Amazon}{Seattle, WA}
+      {Software Development Engineer}{Feb 2021 \textbf{--} Feb 2025}
         \resumeItemListStart
-            \resumeItem{Primary developer of \textbf{mission-critical} services and features for a \textbf{global GA launch} of \href{https://docs.aws.amazon.com/guardduty/latest/ug/runtime-monitoring.html}{GuardDuty Runtime Monitoring}, announced at \textbf{re:Invent 2022}.}
-            \resumeItem{Designed a malware analysis service pipeline to enable adding automated, \textbf{independently-scalable} analyses in \textbf{under one day}.}
-            \resumeItem{Ideated and bootstrapped an \textbf{organization-wide data catalog} to enable a simple, centralized data access model for \textbf{40+ engineers} across \textbf{6+ teams}.}
+            \resumeItem{Built zero-to-one \textbf{Rust} cross-platform build tool; became org standard for \textbf{Fire TV} (\textbf{200$+$ engineers}, \textbf{70$+$ packages}) with rollout expanding to additional Amazon orgs.}
+            \resumeItem{Bootstrapped FireTV DevX metrics pipeline tracking build performance, disk usage, and user behavior; informed org-wide tooling decisions.}
+            \resumeItem{Primary developer of heartbeat processing service (\textbf{8.1M heartbeats/min}) and metrics ingestion service (\textbf{3B metrics/day}) powering billing and observability for \href{https://docs.aws.amazon.com/guardduty/latest/ug/runtime-monitoring.html}{GuardDuty Runtime Monitoring}'s \textbf{global GA launch}, announced at \textbf{re:Invent 2022}.}
+            \resumeItem{Implemented \textbf{blue-green deployment} infrastructure enabling \textbf{zero-downtime deploys} for a core service at \textbf{100k$+$ TPS}.}
+            \resumeItem{Ideated and built org-wide data catalog adopted across all of GuardDuty engineering and research, scaling to \textbf{157 datasets} across \textbf{40$+$ engineers} and \textbf{6$+$ teams}.}
         \resumeItemListEnd
 
-    \resumeSubheadingPreviousLevel
-      {Software Development Engineer I}{Feb 2021 \textbf{--} Oct 2022}
-        \resumeItemListStart
-            \resumeItem{Took ownership over incomplete \textbf{Blue-Green deployments} infrastructure for sister team and rapidly delivered the system supporting a \textbf{core service} receiving \textbf{100k+ TPS}.}
-            \resumeItem{Designed and delivered a \textbf{file-ingestion service} for downloading and indexing files from an extensible list of sources.}
-            \resumeItem{Analyzed customer usage patterns which resulted in a\textbf{ $\sim$100\% faster API migration} campaign.}
-        \resumeItemListEnd
-    
   \resumeSubHeadingListEnd
 
 
@@ -230,22 +226,11 @@
     \resumeSubHeadingListStart
       
       \resumeProjectHeading
-        {\textbf{MetPro34.com} $|$ \emph{\href{https://x.com/jwpepper/status/1788301791550963808}{Acquired by J.W. Pepper and Son}}}{\emph{Aug 2019 - Feb 2023}}
+        {\textbf{MetPro34.com} $|$ \emph{\href{https://www.jwpepper.com/ourbrands}{Acquired by J.W. Pepper and Son}}}{Feb 2023}
           \resumeItemListStart
-            \resumeItem{World's first cross-platform, cloud-based programmable metronome app. Available on \href{https://metpro34.com/}{Web}, \href{https://apps.apple.com/us/app/metpro34/id1502870496}{iOS}, and \href{https://play.google.com/store/apps/details?id=com.metpro34&hl=en_US}{Android}.}
-            \resumeItem{Users can make an account and join multiple ensembles. Ensembles contain programmable metronome sequences plus offline file storage for practicing with MP3s or sharing documents.}
-            \resumeItem{Service written in \textbf{Node.js} using \textbf{Express} web framework, built into a \textbf{Docker} container and deployed on \textbf{Google Cloud Platform}. Uses \textbf{MongoDB} as the database.}
-            \resumeItem{Cross-platform \textbf{SPA} front-end written using \textbf{React} on the \textbf{Capacitor} runtime. Low-latency audio modules written in \textbf{Swift} and \textbf{Java} for precise audio timing on mobile devices.}
+            \resumeItem{World's first cross-platform, cloud-based programmable metronome app for ensembles; reached \textbf{950 users} before acquisition. Available on \href{https://metpro34.com/}{Web}, \href{https://apps.apple.com/us/app/metpro34/id1502870496}{iOS}, and \href{https://play.google.com/store/apps/details?id=com.metpro34&hl=en_US}{Android}.}
           \resumeItemListEnd
           
-      \resumeProjectHeading
-        {\textbf{RudimentGenerator.com}}{\emph{Apr 2020}}
-          \resumeItemListStart
-            \resumeItem{Web application for generating guaranteed-playable snare drum music. Available on \href{https://rudimentgenerator.com}{Web}.}
-            \resumeItem{Users can customize their relative chances of generating particular rhythms, patterns, and note decorations.}
-            \resumeItem{Service written in \textbf{Go} built into a \textbf{Docker} container deployed on \textbf{Google Cloud Platform}. A \textbf{Python} script generates the markup file which is parsed by \textbf{LilyPond} for generating the PDF. Front-end is \textbf{React}.}
-          \resumeItemListEnd
-      
     \resumeSubHeadingListEnd
 
 
@@ -260,7 +245,7 @@
       {University of Connecticut
       % \normalfont{(Admission rate: 0.09\%)}
       }{Storrs, CT}
-      {B.S. in Computer Science}{2015 \textbf{--} 2020}
+      {B.S. in Computer Science}{}
       {B.A. in Applied Mathematics}{}
         % \resumeSubHeadingListStart
         % \small{\item{
@@ -286,9 +271,9 @@
   \resumeSubHeadingListStart
     \small{\item{
         
-        \textbf{Languages:}{ Rust, Python, Typescript/Javascript, Java, Bash, C} \\ \vspace{3pt}
+        \textbf{Languages:}{ Rust, Kotlin, Python, Typescript/Javascript, Java} \\ \vspace{3pt}
         
-        \textbf{Areas of Expertise:}{ Cloud infrastructure, Globally distributed services, Build tools, Cross-platform development} \\ \vspace{3pt}
+        \textbf{Areas of Expertise:}{ Developer tooling, Distributed systems, Android platform engineering, Cross-platform development, Cloud infrastructure (AWS), CI/CD \& build systems} \\ \vspace{3pt}
         
         
     }}
