@@ -61,8 +61,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -74,7 +74,7 @@
   \item\small{
     {#1 \vspace{-2pt}}
   }
-  \vspace{5pt}
+  \vspace{7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{
@@ -97,7 +97,7 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \fontsize{13}{15}\selectfont\textbf{#1} & #2 \\
       \underline{\small#3} & \small #4 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 
@@ -175,22 +175,21 @@
       {Meta}{Seattle, WA}
       {Senior Software Engineer}{Mar 2025 \textbf{--} Present}
         \resumeItemListStart
-            \resumeItem{Technical lead for Sharesheet redesign in Facebook (public test, \textbf{2B opens/day}); scoped and drove implementation strategy for a \textbf{3-engineer workstream}, providing technical trade-offs and direction for product, data science, and UXR initiatives.}
-            \resumeItem{Drove Sharesheet experiments in Facebook yielding \textbf{$+$2M sends}, \textbf{50\% improvement in load times} under 500ms, and \textbf{99.9\% reduction in failures} via performance and quality improvements.}
-            \resumeItem{Architected Android foundation for new Messenger tab (public test, \textbf{6.3M DAU}), including data models, pagination, and initialization patterns enabling rapid feature development.}
-            \resumeItem{Identified and led initiative to remove all unused feature flags from Facebook and Messenger, enforcing removal as a build failure, saving \textbf{$\sim$\$200k/year in capacity}.}
-            \resumeItem{Built reporting and notifications infrastructure critical to Messenger feature launch across Android, iOS, and server; blocking factor for safety compliance and user adoption.}
+            \resumeItem{Technical lead for Facebook Sharesheet (\textbf{2B opens/day}); drove \textbf{3-engineer workstream} delivering \textbf{$+$2M shares}, \textbf{50\% faster loads}, and \textbf{99.9\% fewer failures} while aligning product, data science, and UXR.}
+            \resumeItem{Bootstrapped Android architecture for Messenger People Tab (\textbf{6.3M DAU}); built UI and data lifecycle patterns enabling team to ship features fast.}
+            \resumeItem{Leading removal of all unused feature flags from Facebook and Messenger, enforcing as a build failure; projected \textbf{$\sim$\$200k/year} capacity savings.}
+            \resumeItem{Built cross-platform reporting and notifications infrastructure for Messenger Moments launch (Android, iOS, server); required for safety compliance and user adoption.}
+            \resumeItem{Leading Messenger live location feature for peer-to-peer sharing; aligning E2EE architecture and legal to deliver a privacy-first live location experience.}
         \resumeItemListEnd
 
     \resumeSubheading
       {Amazon}{Seattle, WA}
       {Software Development Engineer}{Feb 2021 \textbf{--} Feb 2025}
         \resumeItemListStart
-            \resumeItem{Built zero-to-one \textbf{Rust} cross-platform build tool; became org standard for \textbf{Fire TV} (\textbf{200$+$ engineers}, \textbf{70$+$ packages}) with rollout expanding to additional Amazon orgs.}
-            \resumeItem{Bootstrapped FireTV DevX metrics pipeline tracking build performance, disk usage, and user behavior; informed org-wide tooling decisions.}
-            \resumeItem{Primary developer of heartbeat processing service (\textbf{8.1M heartbeats/min}) and metrics ingestion service (\textbf{3B metrics/day}) powering billing and observability for \href{https://docs.aws.amazon.com/guardduty/latest/ug/runtime-monitoring.html}{GuardDuty Runtime Monitoring}'s \textbf{global GA launch}, announced at \textbf{re:Invent 2022}.}
+            \resumeItem{Architected zero-to-one \textbf{Rust} cross-platform build tool; became org standard for \textbf{Fire TV} (\textbf{200$+$ engineers}, \textbf{70$+$ packages}) with rollout expanding to additional Amazon orgs.}
+            \resumeItem{Built heartbeat processing service (\textbf{8.1M heartbeats/min}) and metrics ingestion service (\textbf{3B metrics/day}) powering billing and observability for \href{https://docs.aws.amazon.com/guardduty/latest/ug/runtime-monitoring.html}{GuardDuty Runtime Monitoring}'s \textbf{global GA launch}, announced at \textbf{re:Invent 2022}.}
             \resumeItem{Implemented \textbf{blue-green deployment} infrastructure enabling \textbf{zero-downtime deploys} for a core service at \textbf{100k$+$ TPS}.}
-            \resumeItem{Ideated and built org-wide data catalog adopted across all of GuardDuty engineering and research, scaling to \textbf{157 datasets} across \textbf{40$+$ engineers} and \textbf{6$+$ teams}.}
+            \resumeItem{Designed and built org-wide data catalog adopted across all of GuardDuty engineering and research, scaling to \textbf{157 datasets} across \textbf{40$+$ engineers} and \textbf{6$+$ teams}.}
         \resumeItemListEnd
 
   \resumeSubHeadingListEnd
