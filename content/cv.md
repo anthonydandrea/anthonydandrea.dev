@@ -7,12 +7,12 @@ hideBackToTop: true
 ---
 ## Hark
 
-#### Member of Technical Staff <span class="cv-date">Sep 2026 – Present</span>
+#### Member of Technical Staff <span class="cv-date">Sept 2026 – Present</span>
 - Helping build the most advanced personal intelligence in the world.
 
 ## Meta
 
-#### Senior Software Engineer <span class="cv-date">Mar 2026 – Sep 2026</span>
+#### Senior Software Engineer <span class="cv-date">Mar 2026 – Sept 2026</span>
 - Technical lead for Facebook Sharesheet (2B opens/day); drove 3-engineer workstream delivering +2M shares, 50% faster loads, and 99.9% fewer failures while aligning product, data science, and UXR.
 - Built cross-platform reporting and notifications infrastructure for Messenger Moments launch (Android, iOS, server); required for safety compliance and user adoption.
 
@@ -52,6 +52,6 @@ hideBackToTop: true
 - Technologies: JavaScript (Node, Express, React), Bash, Python, MongoDB, Kubernetes.
 
 ## Post Meridian LLC.
-#### C++ Programmer <span class="cv-date">Sep 2017 – Dec 2017</span>
+#### C++ Programmer <span class="cv-date">Sept 2017 – Dec 2017</span>
 - Cross-platform mobile app development using Qt C++ framework.
 - Worked part-time fixing bugs and refactoring codebase into functional, modular system which improved future development efficiency.
