@@ -5,9 +5,13 @@ hideFooter: true
 hidePagination: true
 hideBackToTop: true
 ---
+## Hark
+
+#### Member of Technical Staff <span class="cv-date">Sep 2026 – Present</span>
+
 ## Meta
 
-#### Senior Software Engineer <span class="cv-date">Mar 2026 – Present</span>
+#### Senior Software Engineer <span class="cv-date">Mar 2026 – Sep 2026</span>
 - Technical lead for Facebook Sharesheet (2B opens/day); drove 3-engineer workstream delivering +2M shares, 50% faster loads, and 99.9% fewer failures while aligning product, data science, and UXR.
 - Built cross-platform reporting and notifications infrastructure for Messenger Moments launch (Android, iOS, server); required for safety compliance and user adoption.
 
