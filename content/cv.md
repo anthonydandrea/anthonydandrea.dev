@@ -9,12 +9,11 @@ hideBackToTop: true
 
 #### Senior Software Engineer <span class="cv-date">Mar 2026 – Present</span>
 - Technical lead for Facebook Sharesheet (2B opens/day); drove 3-engineer workstream delivering +2M shares, 50% faster loads, and 99.9% fewer failures while aligning product, data science, and UXR.
-- Bootstrapped Android architecture for Messenger People Tab (6.3M DAU); built UI and data lifecycle patterns enabling team to ship features fast.
-- Leading removal of all unused feature flags from Facebook and Messenger, enforcing as a build failure; projected ~$200k/year capacity savings.
 - Built cross-platform reporting and notifications infrastructure for Messenger Moments launch (Android, iOS, server); required for safety compliance and user adoption.
 
 #### Software Engineer <span class="cv-date">Mar 2025 – Feb 2026</span>
-- Built messaging experiences for Facebook and Messenger.
+- Bootstrapped Android architecture for Messenger People Tab (6.3M DAU); built UI and data lifecycle patterns enabling team to ship features fast.
+- Leading removal of all unused feature flags from Facebook and Messenger, enforcing as a build failure; projected ~$200k/year capacity savings.
 
 ## Amazon
 
