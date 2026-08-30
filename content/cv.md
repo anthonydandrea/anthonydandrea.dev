@@ -8,6 +8,7 @@ hideBackToTop: true
 ## Hark
 
 #### Member of Technical Staff <span class="cv-date">Sep 2026 – Present</span>
+- Helping build the most advanced personal intelligence in the world.
 
 ## Meta
 
